@@ -75,6 +75,8 @@ The model is built using `torch.nn` with the following layers:
 - **Max Sequence Length:** 32 (optimized for MD5 hash lengths).
 - **Classification:** 3 Classes (Caesar, Rot13, MD5).
 
+The model achieved a test accuracy of 97.99%
+
 ## Usage
 
 ### Training
