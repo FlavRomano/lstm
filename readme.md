@@ -31,7 +31,7 @@ The project uses a character-level sequence modeling approach. Since cryptograph
 
 ## Dataset
 
-I built the dataset starting from a plain anagram dataset, that I enriched with two more columns.
+I built the [dataset](https://gist.githubusercontent.com/FlavRomano/2f0b37a3d0d5b7230d548a0de563c4a0/raw/8ace8e7eb27e6432b963659d68c02dccb35ab108/en_anagram_dictionary_encoding.csv) starting from a plain anagram dataset, that I enriched with two more columns.
 
 ### 1. `anagram` (The Plain Text)
 
