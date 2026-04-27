@@ -8,7 +8,7 @@ class LSTMCryptographic(nn.Module):
         self.fc = nn.Linear(hidden_dim, output_dim)
 
     def forward(self, x):
-            x = self.embedding(x) 
-            output, (hn, cn) = self.lstm(x)
-            
-            return self.fc(hn[-1])
+        x = self.embedding(x) 
+        output, (hn, cn) = self.lstm(x)
+        
+        return self.fc(hn[-1])
